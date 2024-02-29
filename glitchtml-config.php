@@ -8,7 +8,7 @@ class GlitchConfig {
   private $glitchTime;
 
   public function __construct() {
-    $this->glitchText = "Trevor Pendras - Data Analyst, Web Developer, Marketing Information, Musician";
+    $this->glitchText = "Where we are going, we don't need JavaScript...";
     $this->glitchSize = "25px";
     $this->glitchTime = .5;
     $this->glitchChars = 
