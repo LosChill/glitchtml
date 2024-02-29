@@ -1,5 +1,5 @@
 <?php
-// Create style.css for glitchtml
+// Creates stylesheet for glitchtml elements
 
 require_once 'glitchtml-config.php';
 $config = new GlitchConfig();
@@ -13,14 +13,10 @@ $start = $length * -100;
 header("Content-Type: text/css");
 ?>
 
-:root {
-  --scalar: <?php echo $size; ?>;
-}
-
 .glitchtml-outer-container {
   position: relative;
   width: 100%;
-  height: var(--scalar);
+  height: clamp(8px, 5vw, 40px);
   overflow: hidden;
 }
 
@@ -39,10 +35,11 @@ header("Content-Type: text/css");
   }
 }
 
-p {
+.glitchtml-inner-container p {
   margin: 0;
   padding: 0;
-  line-height: var(--scalar);
+  line-height: clamp(8px, 5vw, 40px);
   font-family: 'Courier New', monospace;
-  font-size: var(--scalar);
+  font-size: clamp(8px, 5vw, 40px);
+  color: var(--tdcream);
 }

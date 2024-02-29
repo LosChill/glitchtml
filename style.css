@@ -1,0 +1,13 @@
+/* Stylesheet for site */
+
+:root {
+  --tdchili: #d74833ff;
+  --tdsun: #f9c22eff;
+  --tdmint: #d7fdecff;
+  --tdindigo: #073642;
+  --tdcream: #f0e7e5ff;
+}
+
+body {
+  background-color: var(--tdindigo);
+}
