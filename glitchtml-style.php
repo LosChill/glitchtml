@@ -16,7 +16,7 @@ header("Content-Type: text/css");
 .glitchtml-outer-container {
   position: relative;
   width: 100%;
-  height: clamp(8px, 5vw, 40px);
+  height: clamp(8px, 5vw, 30px);
   overflow: hidden;
 }
 
@@ -38,8 +38,9 @@ header("Content-Type: text/css");
 .glitchtml-inner-container p {
   margin: 0;
   padding: 0;
-  line-height: clamp(8px, 5vw, 40px);
+  line-height: clamp(8px, 5vw, 30px);
   font-family: 'Courier New', monospace;
-  font-size: clamp(8px, 5vw, 40px);
+  font-size: clamp(8px, 5vw, 30px);
   color: var(--tdcream);
+  white-space: nowrap;
 }
